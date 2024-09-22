@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
-const routes = require('./route/Routes')
+const routes = require('./route/Route')
 //middlewares
 app.use(express.json());
 
